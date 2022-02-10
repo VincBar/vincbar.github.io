@@ -1,15 +1,12 @@
-import About from "./components/about/About";
-import Intro from "./components/intro/Intro";
-import ProductList from "./components/productList/ProductList";
 import { Navbar } from "./components/NavBar"
+import { Navigation } from "./components"
+import "./App.css"
 
 const App = () => {
   return (
-    <div>
+    <div class="main">
       <Navbar />
-      <Intro />
-      <About />
-      <ProductList />
+      <Navigation />
     </div>
   );
 };
